@@ -33,8 +33,6 @@ for i in nums:
 # print(f'经过加密后的内容为{secret}')
 
 
-
-
 # secret = input('请输入你要加密的文件')
 # for i in secret:
 #     text += chr(ord(i)-1)
