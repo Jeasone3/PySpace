@@ -1,10 +1,18 @@
-# # None 是一个特殊的字面量。表示：空值/无值/无意义
-# # 就是void
-# msg = None
+# # ---------------------None 是一个特殊的字面量。表示：空值/无值/无意义
+# # 类似与void
+from traceback import print_tb
+
+
+# msg = None # 等价与null
+
+
 #
 # # None 的类型是NoneType
 # print(type(msg))
 #
+
+
+
 # # None 转为布尔值是False
 # print(bool(msg))
 # if not msg:
@@ -23,3 +31,5 @@ result = add(100,200)
 print(result)
 
 # print没有返回值
+# res = print('hello')
+# print(result)
