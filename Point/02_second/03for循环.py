@@ -3,6 +3,7 @@
 range(0,10) 0-10 左闭右开
 # 这个n在for外面定义，可以超出range的值，因为进入for之后n会被初始化为range左边的值
 n = 5
+range(n) [0,n)
 
 for n in range(10):
     print('你好',n)

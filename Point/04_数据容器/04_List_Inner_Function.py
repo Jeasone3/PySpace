@@ -1,3 +1,4 @@
+"""列表的内置函数"""
 # 使用内置函数sorted函数，返回一个排序后的容器
 # nums = [11, 22, 66, 88, 33]
 # result = sorted(nums)
@@ -20,6 +21,6 @@
 # min方法参考max
 # print(min(11,222,4,4,5))
 
-# sum
+# sum() 类型要相同
 nums = [10,20,33,22]
 print(sum(nums))

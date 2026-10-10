@@ -13,6 +13,8 @@ nums = [10, 20, 30, 40]
 # nums.extend(range(1,3))
 # print(nums)
 
+
+
 # 删除
 # 1.通过列表的pop方法删除指定位置的元素，并返回该元素
 # result = nums.pop(1)
